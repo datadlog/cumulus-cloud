@@ -1,2 +1,2 @@
-# cumulus-cloud
+# Cumulus Cloud
 Compare the cloud services. 
