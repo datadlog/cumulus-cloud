@@ -2,10 +2,12 @@
   "name": "cumulus-cloud",
   "version": "1.0.0",
   "description": "Compare the cloud services.",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "repository": {
     "type": "git",
