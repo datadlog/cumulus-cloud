@@ -13,22 +13,6 @@ export const Footer = (props) => (
     px={{ base: "4", md: "8" }}
   >
     <Stack>
-      <Stack direction="row" spacing="4" align="center" justify="space-between">
-        <ButtonGroup variant="ghost" color="gray.600" {...props}>
-          <IconButton
-            as="a"
-            href="https://github.com/datadlog"
-            aria-label="GitHub"
-            icon={<FaGithub fontSize="20px" />}
-          />
-          <IconButton
-            as="a"
-            href="https://twitter.com/datadlog"
-            aria-label="Twitter"
-            icon={<FaTwitter fontSize="20px" />}
-          />
-        </ButtonGroup>
-      </Stack>
       <Text fontSize="sm" alignSelf={{ base: "center", sm: "start" }}>
         &copy; {new Date().getFullYear()} DataDlog. All rights reserved.
       </Text>
